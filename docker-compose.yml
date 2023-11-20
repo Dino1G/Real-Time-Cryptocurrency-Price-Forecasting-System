@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+   nifi:
+      image: nifi
+      build: ./nifi
+      ports:
+         - '8443:8443'
+      environment:
+         - SINGLE_USER_CREDENTIALS_USERNAME=scc413
+         - SINGLE_USER_CREDENTIALS_PASSWORD=scc413scc413scc413
+      volumes:
+         - ./nifi/scripts:/home/nifi
+         - ./nifi/database_repository:/opt/nifi/nifi-current/database_repository
+         - ./nifi/flowfile_repository:/opt/nifi/nifi-current/flowfile_repository
+         - ./nifi/content_repository:/opt/nifi/nifi-current/content_repository
+         - ./nifi/provenance_repository:/opt/nifi/nifi-current/provenance_repository
+         - ./nifi/state:/opt/nifi/nifi-current/state
+         - ./nifi/logs:/opt/nifi/nifi-current/logs
+         - ./drivers:/opt/nifi/nifi-current/drivers
+         - ./nifi/conf:/opt/nifi/nifi-current/conf
+   grafana:
+      image: grafana/grafana:latest
+      container_name: grafana
+      user: '0'
+      ports:
+         - '3000:3000'
+      # environment:
+      #    - GF_AUTH_ANONYMOUS_ENABLED=true
+      #    - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      volumes:
+         - ./grafana/var/lib:/var/lib/grafana
+   mysql:
+      image: mysql
+      command: --default-authentication-plugin=mysql_native_password
+      environment:
+        MYSQL_ROOT_PASSWORD: scc413
+      volumes:
+         - ./mysql:/var/lib/mysql
+   adminer:
+      image: adminer
+      ports:
+         - 8080:8080
