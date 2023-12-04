@@ -1,11 +1,11 @@
 # Real-Time Cryptocurrency Price Forecasting System
 
 ## Introduction
-This repository contains the code and documentation for a real-time cryptocurrency price forecasting system. The system is designed to efficiently ingest and process high-velocity data from the CoinCap API, apply an ARIMA model for forecasting, store the results in a MySQL database, and visualize the data using Grafana. 
+This repository contains the environment and documentation for a real-time cryptocurrency price forecasting system. The system is designed to efficiently ingest and process high-velocity data from the CoinCap API, apply an ARIMA model for forecasting, store the results in a MySQL database, and visualize the data using Grafana. 
 
 ### Authors
 - Yi-Chun Huang
-- Contact: y.huang65@lancaster.ac.uk
+- Contact: dino.1g.yc@gmail.com
 
 ### Additional Keywords
 Data Engineering, Real-time Data Processing, Cryptocurrency Price Forecasting, Apache NiFi, Python, ARIMA Model, MySQL, Grafana, CoinCap API
@@ -24,7 +24,7 @@ The system is designed as a data processing pipeline with several stages:
 4. **Storage:** The raw and forecasted data is stored in a MySQL database.
 5. **Visualization:** Grafana is used to create interactive dashboards for visualizing the data and predictions.
 
-![Pipeline Design](images/pipeline.png)
+![Pipeline Design](images/pipeline.jpeg)
 
 ## Implementation
 The implementation stack includes Apache NiFi, Python, MySQL, and Grafana, all integrated within Docker containers. Apache NiFi handles data ingestion and transformation, Python implements the ARIMA model, MySQL stores the data, and Grafana provides data visualization.
