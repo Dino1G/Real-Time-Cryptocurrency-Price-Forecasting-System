@@ -36,7 +36,9 @@ The system has been found to efficiently handle real-time data ingestion, transf
 This project demonstrates the power of a well-designed data engineering pipeline for real-time data processing. While the system is effective, there is room for improvement, such as integrating offline optimization and experimenting with different forecasting models.
 
 ## References
-- [Reference 1](https://example.com/reference1)
 <a id="1">[1]</a> 
 Brett Scott, John Loonam, and Vikas Kumar. Exploring the rise of blockchain technology: Towards distributed collaborative organizations. Strategic
 Change, 26(5):423–428, 2017.
+<a id="1">[2]</a> 
+Shakir Khan and Hela Alghulaiakh. Arima model for accurate time series stocks forecasting. International Journal of Advanced Computer Science and
+Applications, 11(7), 2020.
