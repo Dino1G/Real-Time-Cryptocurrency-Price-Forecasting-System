@@ -1,58 +1,45 @@
 # Real-Time Cryptocurrency Price Forecasting System
 
 ## Introduction
+This repository contains the code and documentation for a real-time cryptocurrency price forecasting system. The system is designed to efficiently ingest and process high-velocity data from the CoinCap API, apply an ARIMA model for forecasting, store the results in a MySQL database, and visualize the data using Grafana. 
 
-This repository contains the design and implementation of a real-time data processing pipeline for cryptocurrency price forecasting. The system, built using Docker, NiFi, Python, MySQL, and Grafana, efficiently ingests and transforms high-velocity data from the CoinCap API. A Python-implemented ARIMA model is used for the forecasting task. The results, stored in a MySQL database, are visualized using Grafana, demonstrating the effectiveness of a well-structured data processing pipeline in extracting valuable insights from real-time data.
+### Authors
+- Yi-Chun Huang
+- Contact: y.huang65@lancaster.ac.uk
 
-## Key Features
-
-- Data Engineering
-- Real-time Data Processing
-- Cryptocurrency Price Forecasting
-- Apache NiFi
-- Python
-- ARIMA Model
-- MySQL
-- Grafana
-- CoinCap API
-
-## ACM Reference
-
-Yi-Chun Huang. 2023. Real-Time Cryptocurrency Price Forecasting System: Design and Implementation of a Data Engineering Pipeline. 1, 1 (May 2023), 7 pages. [DOI](https://doi.org/10.1145/nnnnnnn.nnnnnnn)
+### Additional Keywords
+Data Engineering, Real-time Data Processing, Cryptocurrency Price Forecasting, Apache NiFi, Python, ARIMA Model, MySQL, Grafana, CoinCap API
 
 ## Background
-
-The field of cryptocurrency price forecasting has been an active area of research and development, spurred by the dramatic rise of digital currencies over the past decade. Various approaches have been employed to tackle this problem, ranging from traditional statistical to complex machine learning algorithms.
+Cryptocurrency price forecasting has become increasingly important in the financial world. Various methods have been used to predict cryptocurrency prices, including traditional statistical models and complex machine learning algorithms. One widely applied method is the ARIMA model, known for its effectiveness in time series forecasting.
 
 ## Datasets and Characteristics
-
-The data for this project is sourced from the CoinCap API, which provides real-time data on countless cryptocurrencies. The data is characterized by its volume, authenticity, diversity, and real-time nature, making it ideal for predicting cryptocurrency prices.
+The data used for this project is sourced from the CoinCap API, a reliable resource for real-time cryptocurrency data. The data is characterized by its high volume, frequent updates, authenticity, diversity, and real-time nature.
 
 ## Design Approach
+The system is designed as a data processing pipeline with several stages:
+1. **Ingestion:** Data is ingested in real-time from the CoinCap API using Apache NiFi.
+2. **Transformation:** Data is cleaned and prepared for analysis, including data consistency and error handling.
+3. **Analysis:** An ARIMA model implemented in Python is used for forecasting.
+4. **Storage:** The raw and forecasted data is stored in a MySQL database.
+5. **Visualization:** Grafana is used to create interactive dashboards for visualizing the data and predictions.
 
-The data pipeline consists of several interrelated stages:
-1. Ingestion
-2. Transformation
-3. Analysis
-4. Storage
-5. Visualization
-
-Each stage is designed for efficiency and reliability.
+![Pipeline Design](images/pipeline.png)
 
 ## Implementation
-
-The implementation stack includes:
-- Apache NiFi
-- Python
-- MySQL
-- Grafana
-
-These technologies are integrated in a Docker environment to create a seamless data processing pipeline.
+The implementation stack includes Apache NiFi, Python, MySQL, and Grafana, all integrated within Docker containers. Apache NiFi handles data ingestion and transformation, Python implements the ARIMA model, MySQL stores the data, and Grafana provides data visualization.
 
 ## Evaluation
-
-The system performed effectively in handling real-time data streams and predicting cryptocurrency prices. Observations were made regarding the performance of each component of the pipeline.
+The system has been found to efficiently handle real-time data ingestion, transformation, and storage. The ARIMA model performs well, and Grafana provides valuable data visualization capabilities.
 
 ## Concluding Remarks
+This project demonstrates the power of a well-designed data engineering pipeline for real-time data processing. While the system is effective, there is room for improvement, such as integrating offline optimization and experimenting with different forecasting models.
 
-The project highlighted the importance of a well-designed data engineering pipeline in handling real-time data effectively. It also emphasized the need for ongoing monitoring and optimization.
+## References
+- [Reference 1](https://example.com/reference1)
+- [Reference 2](https://example.com/reference2)
+- [Reference 3](https://example.com/reference3)
+- [Reference 4](https://example.com/reference4)
+- [Reference 5](https://example.com/reference5)
+- [Reference 6](https://example.com/reference6)
+- [Reference 7](https://example.com/reference7)
