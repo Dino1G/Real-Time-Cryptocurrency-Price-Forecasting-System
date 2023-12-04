@@ -37,16 +37,16 @@ This project demonstrates the power of a well-designed data engineering pipeline
 
 ## References
 
-<a id="1">[1]</a> Brett Scott, John Loonam, and Vikas Kumar. Exploring the rise of blockchain technology: Towards distributed collaborative organizations. Strategic Change, 26(5):423–428, 2017. [Link](https://onlinelibrary.wiley.com)
+<a id="1">[1]</a> Brett Scott, John Loonam, and Vikas Kumar. Exploring the rise of blockchain technology: Towards distributed collaborative organizations. Strategic Change, 26(5):423–428, 2017.
 
-<a id="2">[2]</a> Shakir Khan and Hela Alghulaiakh. ARIMA model for accurate time series stocks forecasting. International Journal of Advanced Computer Science and Applications, 11(7), 2020. [Link](https://www.researchgate.net)
+<a id="2">[2]</a> Shakir Khan and Hela Alghulaiakh. ARIMA model for accurate time series stocks forecasting. International Journal of Advanced Computer Science and Applications, 11(7), 2020.
 
-<a id="3">[3]</a> Ahmed M Khedr, Ifra Arif, Magdi El-Bannany, Saadat M Alhashmi, and Meenu Sreedharan. Cryptocurrency price prediction using traditional statistical and machine-learning techniques: A survey. Intelligent Systems in Accounting, Finance and Management, 28(1):3–34, 2021. [Link](https://onlinelibrary.wiley.com)
+<a id="3">[3]</a> Ahmed M Khedr, Ifra Arif, Magdi El-Bannany, Saadat M Alhashmi, and Meenu Sreedharan. Cryptocurrency price prediction using traditional statistical and machine-learning techniques: A survey. Intelligent Systems in Accounting, Finance and Management, 28(1):3–34, 2021.
 
-<a id="4">[4]</a> M Poongodi, V Vijayakumar, and Naveen Chilamkurti. Bitcoin price prediction using ARIMA model. International Journal of Internet Technology and Secured Transactions, 10(4):396–406, 2020. [Link](https://www.semanticscholar.org)
+<a id="4">[4]</a> M Poongodi, V Vijayakumar, and Naveen Chilamkurti. Bitcoin price prediction using ARIMA model. International Journal of Internet Technology and Secured Transactions, 10(4):396–406, 2020.
 
-<a id="5">[5]</a> K Dhinakaran, J Divya, C Indhumathi, R Asha, et al. Cryptocurrency exchange rate prediction using ARIMA model on real time data. In 2022 International Conference on Electronics and Renewable Systems (ICEARS), pages 914–917. IEEE, 2022. [Link](https://ieeexplore.ieee.org)
+<a id="5">[5]</a> K Dhinakaran, J Divya, C Indhumathi, R Asha, et al. Cryptocurrency exchange rate prediction using ARIMA model on real time data. In 2022 International Conference on Electronics and Renewable Systems (ICEARS), pages 914–917. IEEE, 2022.
 
-<a id="6">[6]</a> Shubhankar Mohapatra, Nauman Ahmed, and Paulo Alencar. KryptoOracle: a real-time cryptocurrency price prediction platform using twitter sentiments. In 2019 IEEE international conference on big data (Big Data), pages 5544–5551. IEEE, 2019. [Link](https://arxiv.org)
+<a id="6">[6]</a> Shubhankar Mohapatra, Nauman Ahmed, and Paulo Alencar. KryptoOracle: a real-time cryptocurrency price prediction platform using twitter sentiments. In 2019 IEEE international conference on big data (Big Data), pages 5544–5551. IEEE, 2019.
 
-<a id="7">[7]</a> Jiwon Bang and Mi-Jung Choi. Design and implementation of storage system for real-time blockchain network monitoring system. In 2019 20th Asia-Pacific Network Operations and Management Symposium (APNOMS), pages 1–4. IEEE, 2019. [Link](https://ieeexplore.ieee.org)
+<a id="7">[7]</a> Jiwon Bang and Mi-Jung Choi. Design and implementation of storage system for real-time blockchain network monitoring system. In 2019 20th Asia-Pacific Network Operations and Management Symposium (APNOMS), pages 1–4. IEEE, 2019.
