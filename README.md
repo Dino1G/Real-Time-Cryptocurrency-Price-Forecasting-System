@@ -1,11 +1,10 @@
 # Real-Time Cryptocurrency Price Forecasting System
 
+## Authors
+- Yi-Chun Huang
+
 ## Introduction
 This repository contains the environment and documentation for a real-time cryptocurrency price forecasting system. The system is designed to efficiently ingest and process high-velocity data from the CoinCap API, apply an ARIMA model for forecasting, store the results in a MySQL database, and visualize the data using Grafana. 
-
-### Authors
-- Yi-Chun Huang
-- Contact: dino.1g.yc@gmail.com
 
 ### Additional Keywords
 Data Engineering, Real-time Data Processing, Cryptocurrency Price Forecasting, Apache NiFi, Python, ARIMA Model, MySQL, Grafana, CoinCap API
