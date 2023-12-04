@@ -37,9 +37,11 @@ This project demonstrates the power of a well-designed data engineering pipeline
 
 ## References
 - [Reference 1](https://example.com/reference1)
-- [Reference 2](https://example.com/reference2)
-- [Reference 3](https://example.com/reference3)
-- [Reference 4](https://example.com/reference4)
-- [Reference 5](https://example.com/reference5)
-- [Reference 6](https://example.com/reference6)
-- [Reference 7](https://example.com/reference7)
+---
+output:
+  md_document:
+    variant: markdown_github
+bibliography: bibliography.bib
+---
+
+[@khan2020arima]
